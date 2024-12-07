@@ -96,12 +96,10 @@ def get_transform_mat(X, Y, Z, RX, RY, RZ):
 
     R = np.dot(np.dot(Rz, Ry),Rx)
 
-    # 平移向量
     tx = X
     ty = Y
     tz = Z
 
-    # 变换矩阵
     end_to_base = np.array([[R[0, 0], R[0, 1], R[0, 2], tx],
                 [R[1, 0], R[1, 1], R[1, 2], ty],
                 [R[2, 0], R[2, 1], R[2, 2], tz],
