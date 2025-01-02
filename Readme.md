@@ -17,7 +17,7 @@
 Linux（推荐Ubuntu，版本<=20.04），推荐python>=3.8
 
 克隆本仓库：
-   - `https://github.com/HangR00/hand-eye-calibration.git`
+   - `git clone https://github.com/HangR00/hand-eye-calibration.git`
 
 安装必要的库：
    - `pip install -r requirements.txt`
