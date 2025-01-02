@@ -1,13 +1,5 @@
 # Hand Eye Calibration
 
-Two calibration method are provided: eye off hand and eye in hand.
-
-Before using this script, another vision script must be provided to get **obj/tag2camera** matrix (4*4).
-
-**obj/tag2camera** matrix is in ROS communication pipeline.
-
-https://github.com/HangR00/hand-eye-calibration.git
-
 # 手眼标定
 
 很多开源的手眼标定程序都是基于某些特定型号的机械臂与相机开发的，在这里我们只关注手眼标定本身，给出一个通用的框架，可以适配任意六轴机械臂和RGBD相机。
